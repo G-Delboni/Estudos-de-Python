@@ -1,4 +1,4 @@
-cidade = input('Digite o nome da sua cidade: ').title()
+cidade = input('Digite o nome da sua cidade: ').title() .strip()
 verificar = cidade.find('Santo')
 
 if verificar == 0:
