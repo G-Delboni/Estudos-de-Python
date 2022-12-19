@@ -1,4 +1,4 @@
-nome = input('Digite seu nome completo: ')
+nome = input('Digite seu nome completo: ').upper() .split()
 
-print(nome.title().find('Silva'))
+print(f'Seu nome tem silva? {"SILVA" in nome[:4]}')
  
