@@ -1,10 +1,3 @@
-cidade = input('Digite o nome da sua cidade: ').title() .strip()
-verificar = cidade.find('Santo')
+cidade = input("Digite o nome da sua cidade: ").upper() .split()
 
-if verificar == 0:
-
-    print('A cidade começa com Santo')
-
-else:
-
-    print('A cidade não começa com Santo')
+print(f'A cidade inicia com "Santo"?: {"SANTO" in cidade[0:4]}')
