@@ -13,8 +13,25 @@ while True:
         print(f'Dezena: {d}')
         print(f'Centena: {c}')
         print(f'Milhar: {m}')
-        
+        verificar = input('Deseja continuar? Y/N ').title()
 
-    else:
+        if verificar == "Y":
 
-        break
+            continue
+
+        elif verificar == "N":
+
+            break
+
+    elif num > 9999:
+
+        print('O número digitado precisa estar entre 0 e 9999')
+        verificar = input('Deseja continuar? Y/N ').title()
+
+        if verificar == "Y":
+
+            continue
+
+        elif verificar == "N":
+
+            break
