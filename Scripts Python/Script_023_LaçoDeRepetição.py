@@ -19,7 +19,7 @@ while True:
 
             continue
 
-        elif verificar == "N":
+        else:
 
             break
 
@@ -32,6 +32,6 @@ while True:
 
             continue
 
-        elif verificar == "N":
+        else:
 
             break
